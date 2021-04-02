@@ -7,7 +7,7 @@ for (let i = 0; i < num.length; i++){
 ml = Number(num[i])*ml;
 console.log(ml);
 }
-m1 = m1 ** 3;
+ml = ml ** 3;
 ml = String(ml);
 console.log(typeof ml);
 
