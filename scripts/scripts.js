@@ -9,5 +9,10 @@ class First {
         console.log("Я на следующий метод");
     }
 }
-const Second = new First(); 
-Second.hello();
+class Second extends First{
+   hell (){
+    super.hello();
+    } 
+}
+const second = new Second ();
+second.hell();
